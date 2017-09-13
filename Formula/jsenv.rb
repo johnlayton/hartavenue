@@ -1,8 +1,8 @@
 class Jsenv < Formula
   desc ""
   homepage ""
-  url "https://github.com/johnlayton/farmclose/blob/master/dist/jsenv-0.1.1.tar.gz"
-  sha256 "ed4bd7f6f50a37d59e1d7a27f725406fdaf9c4de79728851f8b7aef1c452a95f"
+  url "https://github.com/johnlayton/farmclose/blob/master/dist/jsenv-0.0.2.tar.gz?raw=true"
+  sha256 "4f40c262998acb1a041eb638cd511c0b16449be9c67e80fb49d338e1bc5566fb"
 
   # depends_on "cmake" => :build
 
