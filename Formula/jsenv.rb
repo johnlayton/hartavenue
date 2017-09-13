@@ -1,15 +1,21 @@
 class Jsenv < Formula
   desc ""
   homepage ""
-  url "https://github.com/johnlayton/farmclose/blob/master/dist/jsenv-0.0.2.tar.gz?raw=true"
-  sha256 "4f40c262998acb1a041eb638cd511c0b16449be9c67e80fb49d338e1bc5566fb"
-
-  # depends_on "cmake" => :build
+  url 'https://github.com/johnlayton/farmclose/raw/master/dist/jsenv-0.1.1.tar.gz'
+  sha1 'd290f001cbfa60a73dab5bbc6259f2729dacc3f5'
 
   def install
-    prefix.install ["bin"]
+    inreplace 'libexec/jsenv', '/usr/local', HOMEBREW_PREFIX
+    prefix.install Dir['*']
   end
 
-  test do
+  def caveats; <<-EOS.undent
+    To use Homebrew's directories rather than ~/.jsenv add to your profile:
+    export JSENV_ROOT=#{var}/jsenv
+
+    To enable shims and autocompletion add to your profile:
+      if which jsenv > /dev/null; then eval "$(jsenv init -)"; fi
+  EOS
   end
+
 end
