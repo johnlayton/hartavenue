@@ -2,7 +2,7 @@ class Jsenv < Formula
   desc ""
   homepage ""
   url 'https://github.com/johnlayton/farmclose/raw/master/dist/jsenv-0.1.1.tar.gz'
-  sha256 "bb8ba4437cd19a17f438493577d0c750395d9759366903c041466f7a7cc70b3c"
+  sha256 "a2bb9cc443cc52e9313dc9e5f1642233d15c25d2f6e9998ccfa9554aae10c9a7"
 
   def install
     inreplace 'libexec/jsenv', '/usr/local', HOMEBREW_PREFIX
