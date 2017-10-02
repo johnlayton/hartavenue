@@ -1,7 +1,7 @@
 class Rosscourt < Formula
   desc ""
   homepage ""
-  url 'https://github.com/johnlayton/farmclose/raw/master/dist/jsenv-0.1.1.tar.gz'
+  url 'https://github.com/johnlayton/rosscourt/archive/v0.0.0.tar.gz'
   sha256 "33162553beab0e7b049cd99087eeeb420b664357729e2368fa8b47f755a747a1"
 
   def install
