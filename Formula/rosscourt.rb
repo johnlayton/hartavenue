@@ -1,4 +1,4 @@
-class rosscourt < Formula
+class Rosscourt < Formula
   desc ""
   homepage ""
   url 'https://github.com/johnlayton/farmclose/raw/master/dist/jsenv-0.1.1.tar.gz'

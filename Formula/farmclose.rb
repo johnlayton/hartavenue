@@ -1,4 +1,4 @@
-class farmclose < Formula
+class Farmclose < Formula
   desc ""
   homepage ""
   url 'https://github.com/johnlayton/rosscourt/archive/v0.0.0.tar.gz'
