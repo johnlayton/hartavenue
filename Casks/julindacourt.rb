@@ -4,7 +4,7 @@ cask 'julindacourt' do
 
   url 'https://github.com/johnlayton/julindacourt/releases/download/v0.0.1/julindacourt-0.0.1-mac.zip'
   name 'julindacourt'
-  homepage ''
+  homepage 'https://github.com/johnlayton/julindacourt'
 
   app 'julindacourt.app'
 end

@@ -1,8 +1,8 @@
 class Farmclose < Formula
-  desc ""
-  homepage ""
+  desc ''
+  homepage 'https://github.com/johnlayton/farmclose'
   url 'https://github.com/johnlayton/farmclose/archive/v0.0.0.tar.gz'
-  sha256 "eba9fc62ee6d9a0d802962a954c6d15794a8b938ab2d0d317d40d777cc48cb2c"
+  sha256 'eba9fc62ee6d9a0d802962a954c6d15794a8b938ab2d0d317d40d777cc48cb2c'
 
   def install
     inreplace 'libexec/jsenv', '/usr/local', HOMEBREW_PREFIX

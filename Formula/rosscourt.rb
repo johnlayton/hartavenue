@@ -1,8 +1,8 @@
 class Rosscourt < Formula
-  desc ""
-  homepage ""
+  desc ''
+  homepage 'https://github.com/johnlayton/rosscourt'
   url 'https://github.com/johnlayton/rosscourt/archive/v0.0.0.tar.gz'
-  sha256 "33162553beab0e7b049cd99087eeeb420b664357729e2368fa8b47f755a747a1"
+  sha256 '33162553beab0e7b049cd99087eeeb420b664357729e2368fa8b47f755a747a1'
 
   def install
     inreplace 'libexec/dmenv', '/usr/local', HOMEBREW_PREFIX
@@ -10,11 +10,6 @@ class Rosscourt < Formula
   end
 
   def caveats; <<-EOS.undent
-    To use Homebrew's directories rather than ~/.jsenv add to your profile:
-    export JSENV_ROOT=#{var}/jsenv
-
-    To enable shims and autocompletion add to your profile:
-      if which jsenv > /dev/null; then eval "$(jsenv init -)"; fi
   EOS
   end
 
