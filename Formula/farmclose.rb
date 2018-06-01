@@ -9,7 +9,7 @@ class Farmclose < Formula
     prefix.install Dir['*']
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<~EOS
     To use Homebrew's directories rather than ~/.jsenv add to your profile:
     export JSENV_ROOT=#{var}/jsenv
 
