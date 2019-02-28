@@ -8,7 +8,7 @@ class Triststreet < Formula
     prefix.install Dir['*']
   end
 
-  def caveats; <<-EOS.undent
+  def caveats; <<-EOS
   EOS
   end
 
