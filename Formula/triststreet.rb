@@ -9,10 +9,11 @@ class Triststreet < Formula
   end
 
   def caveats; <<-EOS
+    To use your profile rather that Homebrew's directories add to your profile:
+      export GATLING_CONF=~/.gatling/conf
   EOS
   end
 
   test do
-    system "#{bin}/gatling", "--help"
   end
 end

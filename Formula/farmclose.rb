@@ -11,9 +11,9 @@ class Farmclose < Formula
 
   def caveats; <<-EOS
     To use Homebrew's directories rather than ~/.jsenv add to your profile:
-    export JSENV_ROOT=#{var}/jsenv
+      export JSENV_ROOT=#{var}/jsenv
 
-    To enable shims and autocompletion add to your profile:
+    To enable shims and autocompletion add to your profile;
       if which jsenv > /dev/null; then eval "$(jsenv init -)"; fi
   EOS
   end
