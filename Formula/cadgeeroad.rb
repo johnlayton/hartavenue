@@ -1,4 +1,4 @@
-class Sshuttle < Formula
+class Cadgeeroad < Formula
   include Language::Python::Virtualenv
 
   desc "Proxy server that works as a poor man's VPN"
